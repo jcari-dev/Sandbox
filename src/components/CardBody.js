@@ -1,7 +1,8 @@
 import React from 'react'
 import Button from './Button'
 
-const CardBody = () => {
+const CardBody = (props) => {
+  console.log('this is props: ', props)
   return (
     <div className="card-body">
         <h5 className="card-title">Card 1</h5>
